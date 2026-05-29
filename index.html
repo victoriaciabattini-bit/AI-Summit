@@ -1,0 +1,2000 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>AI Transformation Summit 2026 — Halo Media · Buenos Aires</title>
+<meta name="description" content="Your guide to the AI Transformation Summit 2026 — Halo Media in Buenos Aires. Hotels, venue, agenda, dinners, and a hand-curated weekend in the city." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT@0,9..144,300..900,30..100;1,9..144,300..900,30..100&family=DM+Sans:opsz,wght@9..40,300..700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    /* ─── HALO Brand Palette ─── */
+    --halo-black:#181818;
+    --halo-white:#FFFFFF;
+    --halo-off-white:#F0F0F0;
+    --halo-purple:#63254E;
+    --halo-orange:#ED3E13;
+    --halo-red:#931E30;
+    --halo-light-orange:#FF7014;
+    --halo-yellow:#FECA1F;
+    --halo-gray:#2C2C2C;
+
+    /* ─── Semantic mapping ─── */
+    --paper:#F0F0F0;
+    --cream:#FFFFFF;
+    --cream-2:#E6E6E6;
+    --ink:#181818;
+    --ink-soft:#4A4A4A;
+    --moss:#63254E;          /* Halo purple */
+    --moss-2:#4A1B3A;
+    --terra:#ED3E13;         /* Halo orange */
+    --terra-soft:#FF7014;    /* Halo light orange */
+    --amber:#FECA1F;         /* Halo yellow */
+    --red:#931E30;           /* Halo red */
+    --line:rgba(24,24,24,.14);
+    --line-soft:rgba(24,24,24,.07);
+    --shadow: 0 1px 0 rgba(24,24,24,.06), 0 12px 32px -16px rgba(24,24,24,.18);
+    --sunset: linear-gradient(135deg, #63254E 0%, #931E30 45%, #ED3E13 100%);
+
+    --serif:"Fraunces", ui-serif, Georgia, serif;
+    --sans:"DM Sans", ui-sans-serif, system-ui, sans-serif;
+    --mono:"JetBrains Mono", ui-monospace, monospace;
+    --maxw:1240px;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0;background:var(--paper);color:var(--ink)}
+  html{scroll-behavior:smooth}
+  body{
+    font-family:var(--sans);
+    font-size:17px;
+    line-height:1.55;
+    -webkit-font-smoothing:antialiased;
+    text-rendering:optimizeLegibility;
+    overflow-x:hidden;
+  }
+  img{max-width:100%;display:block}
+  a{color:inherit;text-decoration:none}
+  ::selection{background:var(--moss);color:var(--cream)}
+
+  /* ============ GRAIN OVERLAY ============ */
+  body::before{
+    content:"";
+    position:fixed;inset:0;
+    pointer-events:none;
+    background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='180' height='180'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 .35 0'/></filter><rect width='100%' height='100%' filter='url(%23n)' opacity='0.55'/></svg>");
+    opacity:.12;
+    mix-blend-mode:multiply;
+    z-index:1;
+  }
+
+  /* ─── Halo decorative dot grid (orange) ─── */
+  .halo-dots{
+    position:absolute;
+    width:88px;height:88px;
+    background-image: radial-gradient(circle, var(--terra) 1.6px, transparent 1.6px);
+    background-size:14px 14px;
+    opacity:.85;
+    pointer-events:none;
+  }
+  .halo-dashed{
+    position:absolute;
+    width:90px;height:90px;border-radius:50%;
+    border:1px dashed var(--terra);
+    opacity:.8;
+    pointer-events:none;
+  }
+  /* ─── Halo blob (bottom-right of marquee sections) ─── */
+  .halo-blob{
+    position:absolute;
+    width:520px;height:520px;
+    bottom:-260px;right:-200px;
+    background: var(--sunset);
+    border-radius: 50%;
+    filter: blur(6px);
+    opacity:.18;
+    pointer-events:none;
+  }
+
+  /* ============ NAV ============ */
+  .nav{
+    position:sticky;top:0;z-index:50;
+    background:rgba(251,247,236,.82);
+    backdrop-filter: blur(18px) saturate(140%);
+    -webkit-backdrop-filter: blur(18px) saturate(140%);
+    border-bottom:1px solid var(--line-soft);
+  }
+  .nav-inner{
+    max-width:var(--maxw);margin:0 auto;
+    padding:14px 22px;
+    display:flex;align-items:center;gap:20px;
+    justify-content:space-between;
+  }
+  .brand{
+    display:flex;align-items:center;gap:12px;
+    font-family:var(--serif);font-weight:600;
+    font-size:18px;letter-spacing:-0.01em;
+    font-variation-settings:"opsz" 14, "SOFT" 80;
+  }
+  .brand-mark{
+    width:24px;height:24px;border-radius:50%;
+    border:2.5px solid var(--halo-black);
+    position:relative;
+    background:transparent;
+  }
+  .brand-mark::after{
+    content:"";position:absolute;
+    width:5px;height:5px;border-radius:50%;
+    background:var(--terra);
+    bottom:-1px;right:0;
+    box-shadow:0 0 0 2px var(--paper);
+  }
+  .brand b{font-weight:600;font-style:italic}
+  .nav-links{
+    display:flex;gap:26px;align-items:center;
+    font-size:13.5px;
+    color:var(--ink-soft);
+  }
+  .nav-links a{position:relative;padding:6px 0}
+  .nav-links a:hover{color:var(--terra)}
+  .nav-links a::after{
+    content:"";position:absolute;left:0;right:0;bottom:-2px;
+    height:1px;background:var(--terra);transform:scaleX(0);transform-origin:left;
+    transition:transform .35s ease;
+  }
+  .nav-links a:hover::after{transform:scaleX(1)}
+  .nav-cta{
+    background:var(--moss);color:var(--cream);
+    padding:9px 16px;border-radius:999px;
+    font-size:13px;font-weight:500;
+    transition:background .25s ease, transform .25s ease;
+  }
+  .nav-cta:hover{background:var(--terra);transform:translateY(-1px)}
+  .menu-btn{display:none;background:none;border:0;cursor:pointer;color:var(--ink);padding:6px}
+  @media (max-width:880px){
+    .nav-links{
+      position:absolute;top:100%;left:0;right:0;
+      background:var(--paper);
+      flex-direction:column;align-items:flex-start;
+      padding:22px 24px 28px;gap:14px;
+      border-bottom:1px solid var(--line);
+      transform:translateY(-12px);opacity:0;pointer-events:none;
+      transition:all .3s ease;
+    }
+    .nav-links.open{transform:translateY(0);opacity:1;pointer-events:auto}
+    .menu-btn{display:inline-flex}
+  }
+
+  /* ============ LAYOUT ============ */
+  section{position:relative;z-index:2}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 22px}
+  .eyebrow{
+    font-family:var(--mono);
+    font-size:11px;letter-spacing:.18em;text-transform:uppercase;
+    color:var(--terra);
+    display:inline-flex;align-items:center;gap:10px;
+  }
+  .eyebrow::before{
+    content:"";width:24px;height:1px;background:var(--terra);display:inline-block;
+  }
+  h1,h2,h3{font-family:var(--serif);font-weight:500;letter-spacing:-0.025em;line-height:1.05;margin:0}
+  h1{font-size:clamp(48px,8.4vw,124px);font-variation-settings:"opsz" 144, "SOFT" 60}
+  h2{font-size:clamp(34px,5vw,64px);font-variation-settings:"opsz" 80, "SOFT" 50}
+  h3{font-size:clamp(22px,2.4vw,30px);font-variation-settings:"opsz" 36, "SOFT" 40}
+  h1 em, h2 em, h3 em{
+    font-weight:600;
+    font-variation-settings:"opsz" 96, "SOFT" 80;
+  }
+  .lead{font-size:clamp(17px,1.4vw,20px);line-height:1.5;color:var(--ink-soft);max-width:60ch}
+  .micro{font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-soft)}
+
+  /* ============ HERO ============ */
+  .hero{
+    padding: 64px 0 60px;
+    border-bottom:1px solid var(--line);
+    background:
+      radial-gradient(70% 60% at 95% 5%, rgba(237,62,19,.16), transparent 60%),
+      radial-gradient(60% 50% at 5% 95%, rgba(99,37,78,.14), transparent 60%),
+      var(--paper);
+    position:relative;overflow:hidden;
+  }
+  .hero-inner{display:grid;grid-template-columns:1.4fr 1fr;gap:48px;align-items:end}
+  @media (max-width:980px){.hero-inner{grid-template-columns:1fr;gap:32px}}
+  .hero h1{
+    font-style:italic;
+    font-variation-settings:"opsz" 144, "SOFT" 100;
+  }
+  .hero h1 em{font-style:normal;color:var(--terra);font-feature-settings:"swsh" on;}
+  .hero h1 .br{display:block}
+  .hero-meta{
+    display:flex;flex-direction:column;gap:14px;
+    border-left:1px solid var(--line);
+    padding-left:28px;
+  }
+  @media (max-width:980px){.hero-meta{border-left:0;padding-left:0;border-top:1px solid var(--line);padding-top:22px}}
+  .hero-meta dl{display:grid;grid-template-columns:auto 1fr;gap:8px 22px;margin:0}
+  .hero-meta dt{font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-soft);padding-top:4px}
+  .hero-meta dd{margin:0;font-family:var(--serif);font-size:19px;font-variation-settings:"opsz" 24, "SOFT" 40}
+  .hero-strip{
+    margin-top:48px;padding-top:24px;
+    border-top:1px solid var(--line);
+    display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;
+    font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-soft);
+  }
+  .hero-strip span b{color:var(--ink);font-weight:500}
+
+  .star{
+    color:var(--terra);font-family:var(--serif);
+    display:inline-block;transform:translateY(2px);
+  }
+
+  /* ============ AT A GLANCE ============ */
+  .glance{padding:88px 0 40px}
+  .glance-grid{
+    display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:36px;
+  }
+  @media (max-width:980px){.glance-grid{grid-template-columns:repeat(2,1fr)}}
+  @media (max-width:520px){.glance-grid{grid-template-columns:1fr}}
+  .gcard{
+    padding:22px;border:1px solid var(--line);
+    border-radius:14px;background:var(--cream);
+    display:flex;flex-direction:column;gap:10px;
+    transition:transform .3s ease, box-shadow .3s ease, background .3s ease;
+    position:relative;overflow:hidden;
+  }
+  .gcard:hover{transform:translateY(-3px);box-shadow:var(--shadow)}
+  .gcard .num{font-family:var(--serif);font-size:40px;color:var(--terra);font-style:italic;line-height:1;font-variation-settings:"opsz" 72, "SOFT" 100}
+  .gcard h4{font-family:var(--serif);font-size:22px;margin:0;font-weight:500;letter-spacing:-0.01em}
+  .gcard p{margin:0;font-size:14.5px;color:var(--ink-soft)}
+  .gcard a{color:var(--terra);font-size:13px;font-weight:500;margin-top:6px;display:inline-flex;align-items:center;gap:6px}
+  .gcard a::after{content:"→";transition:transform .3s}
+  .gcard a:hover::after{transform:translateX(3px)}
+
+  /* ============ SECTION BASES ============ */
+  .sec{padding:96px 0;border-top:1px solid var(--line)}
+  .sec-head{display:grid;grid-template-columns:1fr 1.4fr;gap:48px;align-items:end;margin-bottom:48px}
+  @media (max-width:880px){.sec-head{grid-template-columns:1fr;gap:18px}}
+  .sec-head h2{font-style:italic}
+
+  /* ============ TRANSPORT ============ */
+  .transport-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+  @media (max-width:880px){.transport-grid{grid-template-columns:1fr}}
+  .tcard{
+    background:var(--cream);
+    border:1px solid var(--line);
+    border-radius:18px;padding:28px;
+    display:flex;flex-direction:column;gap:14px;
+    position:relative;overflow:hidden;
+  }
+  .tcard .badge{
+    align-self:flex-start;
+    font-family:var(--mono);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;
+    background:var(--moss);color:var(--cream);
+    padding:5px 10px;border-radius:999px;
+  }
+  .tcard h3{font-style:italic}
+  .tcard .time{font-family:var(--mono);font-size:12px;color:var(--ink-soft);letter-spacing:.06em}
+  .tcard p{margin:0;font-size:14.5px;color:var(--ink-soft);line-height:1.55}
+  .callout{
+    margin-top:12px;padding:14px 16px;
+    border-radius:12px;
+    background:rgba(237,62,19,.08);
+    border-left:3px solid var(--terra);
+    font-size:13.5px;line-height:1.5;
+  }
+  .callout b{color:var(--terra)}
+  .tip-row{
+    display:flex;gap:18px;margin-top:36px;
+    padding:20px 22px;
+    border-radius:14px;background:var(--moss);color:var(--cream);
+    align-items:flex-start;flex-wrap:wrap;
+  }
+  .tip-row svg{flex-shrink:0;margin-top:2px}
+  .tip-row p{margin:0;font-size:14.5px;line-height:1.55;flex:1;min-width:240px}
+  .tip-row b{color:var(--amber)}
+
+  /* ============ HOTELS ============ */
+  .hotels-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+  @media (max-width:880px){.hotels-grid{grid-template-columns:1fr}}
+  .hotel{
+    border:1px solid var(--line);border-radius:18px;
+    padding:32px;background:var(--cream);
+    position:relative;overflow:hidden;
+    display:flex;flex-direction:column;gap:14px;
+  }
+  .hotel::after{
+    content:"";position:absolute;top:-50%;right:-30%;
+    width:60%;height:200%;
+    background:radial-gradient(circle, rgba(237,62,19,.16), rgba(99,37,78,.08) 50%, transparent 70%);
+    pointer-events:none;
+  }
+  .hotel h3{font-style:italic;position:relative}
+  .hotel .addr{font-family:var(--mono);font-size:12px;color:var(--ink-soft);letter-spacing:.04em;position:relative}
+  .hotel a.link{
+    color:var(--terra);font-size:13.5px;font-weight:500;
+    border-bottom:1px solid var(--terra);
+    align-self:flex-start;padding-bottom:1px;position:relative;
+  }
+  .hotel a.link:hover{color:var(--moss);border-color:var(--moss)}
+
+  /* ============ VENUE ============ */
+  .venue-grid{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:start}
+  @media (max-width:880px){.venue-grid{grid-template-columns:1fr;gap:32px}}
+  .rooms{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:24px}
+  @media (max-width:520px){.rooms{grid-template-columns:1fr}}
+  .room{
+    border:1px solid var(--line);border-radius:14px;padding:18px;
+    background:var(--paper);
+    transition: background .25s ease;
+  }
+  .room:hover{background:var(--cream)}
+  .room .num{font-family:var(--serif);font-size:30px;color:var(--terra);font-style:italic;line-height:1;font-variation-settings:"opsz" 36}
+  .room h4{font-family:var(--serif);font-size:20px;margin:6px 0 4px;font-weight:500}
+  .room p{margin:0;font-size:13.5px;color:var(--ink-soft)}
+
+  .schedule-strip{
+    display:flex;justify-content:space-between;
+    margin-top:18px;padding:18px 0;
+    border-top:1px solid var(--line);border-bottom:1px solid var(--line);
+    flex-wrap:wrap;gap:14px;
+  }
+  .meal{display:flex;flex-direction:column;gap:2px}
+  .meal .time{font-family:var(--mono);font-size:11px;letter-spacing:.12em;color:var(--terra);text-transform:uppercase}
+  .meal .name{font-family:var(--serif);font-size:18px;font-weight:500}
+  .meal .when{font-size:12px;color:var(--ink-soft)}
+
+  .equip{
+    display:flex;gap:8px;flex-wrap:wrap;margin-top:8px;
+  }
+  .chip{
+    border:1px solid var(--line);
+    background:var(--paper);
+    padding:6px 12px;border-radius:999px;font-size:12.5px;color:var(--ink-soft);
+  }
+  .wifi{
+    display:flex;align-items:center;gap:14px;
+    padding:16px 18px;
+    background:var(--ink);color:var(--cream);
+    border-radius:14px;font-family:var(--mono);font-size:13px;
+    margin-top:18px;
+  }
+  .wifi b{color:var(--amber)}
+  .wifi-key{
+    background:rgba(255,255,255,.08);
+    padding:5px 10px;border-radius:6px;letter-spacing:.04em;
+  }
+
+  /* ============ AGENDA ============ */
+  .agenda-note{
+    display:flex;align-items:flex-start;gap:14px;
+    padding:18px 22px;border-radius:14px;
+    background:#FFF6D9;
+    border:1px solid rgba(254,202,31,.55);
+    margin-top:24px;
+  }
+  .agenda-note-icon{
+    width:34px;height:34px;border-radius:50%;
+    background:var(--amber);color:var(--halo-black);
+    display:flex;align-items:center;justify-content:center;
+    flex-shrink:0;
+  }
+  .agenda-note p{margin:0;font-size:14.5px;line-height:1.55;color:var(--ink-soft)}
+  .agenda-note b{color:var(--ink)}
+
+  .agenda{display:flex;flex-direction:column;gap:0;margin-top:20px;border-top:1px solid var(--line)}
+  .day{
+    display:grid;grid-template-columns:140px 1fr auto;
+    gap:24px;align-items:start;
+    padding:24px 0;
+    border-bottom:1px solid var(--line);
+    transition:padding .25s ease, background .25s ease;
+  }
+  @media (max-width:720px){
+    .day{grid-template-columns:1fr;gap:6px}
+  }
+  .day:hover{padding-left:8px;padding-right:8px;background:var(--cream)}
+  .day .date{font-family:var(--mono);font-size:12px;letter-spacing:.1em;color:var(--terra);text-transform:uppercase;padding-top:6px}
+  .day h3{font-style:italic;font-size:clamp(24px,3vw,34px)}
+  .day .pill{
+    align-self:start;
+    font-family:var(--mono);font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;
+    padding:5px 10px;border-radius:999px;
+    background:var(--cream-2);color:var(--ink-soft);
+    white-space:nowrap;
+  }
+  .day p{margin:6px 0 0;color:var(--ink-soft);font-size:14.5px;max-width:60ch}
+
+  /* ============ CATERING (accordions) ============ */
+  .menu-stack{display:flex;flex-direction:column;gap:10px;margin-top:24px}
+  details.menu{
+    background:var(--cream);border:1px solid var(--line);
+    border-radius:14px;padding:22px 24px;
+    transition: background .25s ease;
+  }
+  details.menu[open]{background:var(--paper)}
+  details.menu summary{
+    list-style:none;cursor:pointer;
+    display:flex;justify-content:space-between;align-items:center;gap:18px;
+  }
+  details.menu summary::-webkit-details-marker{display:none}
+  .menu-head{display:flex;flex-direction:column;gap:4px}
+  .menu-head .day-num{font-family:var(--mono);font-size:11px;letter-spacing:.14em;color:var(--terra);text-transform:uppercase}
+  .menu-head h3{font-style:italic;font-size:24px}
+  .menu-toggle{
+    width:34px;height:34px;border-radius:50%;border:1px solid var(--line);
+    display:flex;align-items:center;justify-content:center;
+    transition:all .3s ease;
+    flex-shrink:0;
+  }
+  details.menu[open] .menu-toggle{background:var(--moss);color:var(--cream);border-color:var(--moss);transform:rotate(45deg)}
+  .menu-body{
+    margin-top:22px;padding-top:22px;
+    border-top:1px solid var(--line);
+    display:grid;grid-template-columns:repeat(3,1fr);gap:28px;
+  }
+  @media (max-width:880px){.menu-body{grid-template-columns:1fr;gap:22px}}
+  .meal-col h5{
+    font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;
+    color:var(--terra);margin:0 0 12px;display:flex;align-items:center;gap:8px;
+  }
+  .meal-col ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:6px;font-size:14px;color:var(--ink-soft);line-height:1.45}
+  .meal-col li::before{content:"·";color:var(--terra);margin-right:8px;font-weight:bold}
+  .meal-col .sub{font-family:var(--mono);font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-soft);margin-top:10px;margin-bottom:6px}
+  .keto{
+    display:inline-block;font-family:var(--mono);font-size:9.5px;letter-spacing:.12em;
+    padding:2px 6px;border-radius:4px;background:var(--moss);color:var(--cream);
+    margin-left:4px;vertical-align:middle;
+  }
+  .veg{background:var(--terra)!important}
+
+  /* ============ DINNERS ============ */
+  .dinners{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+  @media (max-width:880px){.dinners{grid-template-columns:1fr}}
+  .dinner{
+    border-radius:20px;padding:36px;
+    color:var(--cream);
+    position:relative;overflow:hidden;
+    display:flex;flex-direction:column;gap:18px;
+  }
+  .dinner.tue{background:linear-gradient(160deg, #181818 0%, #2C2C2C 40%, #931E30 100%)}
+  .dinner.wed{background:linear-gradient(160deg, #181818 0%, #2C2C2C 35%, #63254E 100%)}
+  .dinner .when{font-family:var(--mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--amber)}
+  .dinner h3{color:var(--cream);font-style:italic;font-size:32px}
+  .dinner .addr{font-size:13px;font-family:var(--mono);color:rgba(255,255,255,.65);letter-spacing:.04em}
+  .dinner .warn{
+    background:rgba(255,180,80,.15);border-left:3px solid var(--amber);
+    padding:10px 14px;border-radius:8px;font-size:13px;line-height:1.45;color:#FFD79A;
+  }
+  .menu-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:8px}
+  @media (max-width:520px){.menu-grid{grid-template-columns:1fr}}
+  .course h6{font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--amber);margin:0 0 8px}
+  .course ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:5px;font-size:13.5px;color:rgba(255,255,255,.85);line-height:1.45}
+  .course li::before{content:"—";color:var(--amber);margin-right:8px}
+  .dinner a.map{
+    color:var(--amber);font-size:13px;font-family:var(--mono);
+    border-bottom:1px solid var(--amber);align-self:flex-start;letter-spacing:.04em;
+    padding-bottom:1px;text-transform:uppercase;
+  }
+
+  /* ============ SUNDAY ============ */
+  .sunday{
+    background:
+      radial-gradient(60% 50% at 95% 5%, rgba(237,62,19,.10), transparent 60%),
+      radial-gradient(50% 40% at 5% 95%, rgba(99,37,78,.08), transparent 60%),
+      var(--cream);
+    padding:120px 0 100px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);
+    position:relative;overflow:hidden;
+  }
+  .sunday-hero{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:end;margin-bottom:64px}
+  @media (max-width:880px){.sunday-hero{grid-template-columns:1fr;gap:24px}}
+  .sunday-hero h2{font-size:clamp(48px,7vw,96px);font-style:italic;font-variation-settings:"opsz" 144, "SOFT" 100}
+  .sunday-hero h2 em{font-style:normal;color:var(--terra)}
+  .sunday-quote{
+    border-left:2px solid var(--terra);
+    padding:8px 0 8px 24px;
+    font-family:var(--serif);font-size:19px;line-height:1.5;font-style:italic;
+    color:var(--ink-soft);
+    font-variation-settings:"opsz" 24, "SOFT" 80;
+    max-width:48ch;
+  }
+  .sunday-quote::before{content:"❝";color:var(--terra);font-size:28px;margin-right:4px;display:inline-block;transform:translateY(6px)}
+
+  .neighborhood{
+    margin-top:64px;
+  }
+  .nbar{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:32px;border-bottom:1px solid var(--line);padding-bottom:16px}
+  .nbar button{
+    background:transparent;border:1px solid var(--line);border-radius:999px;
+    padding:9px 16px;font-family:var(--sans);font-size:13.5px;font-weight:500;cursor:pointer;color:var(--ink-soft);
+    transition:all .25s ease;
+  }
+  .nbar button:hover{border-color:var(--terra);color:var(--terra)}
+  .nbar button.active{background:var(--moss);color:var(--cream);border-color:var(--moss)}
+
+  .nhood{display:none}
+  .nhood.active{display:block;animation:fade .4s ease}
+  @keyframes fade{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+  .nhood h3{font-style:italic;font-size:clamp(28px,4vw,42px);margin-bottom:6px}
+  .nhood .nintro{color:var(--ink-soft);font-size:16px;line-height:1.6;max-width:62ch;margin-bottom:32px}
+  .nhood .getting{
+    display:inline-flex;align-items:center;gap:8px;
+    font-family:var(--mono);font-size:12px;letter-spacing:.06em;
+    padding:8px 14px;border-radius:999px;
+    background:var(--paper);border:1px solid var(--line);
+    margin-bottom:32px;
+  }
+  .nhood .getting b{color:var(--terra);font-weight:500}
+
+  .spots{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+  @media (max-width:720px){.spots{grid-template-columns:1fr}}
+  .spot{
+    border:1px solid var(--line);border-radius:16px;
+    padding:24px;background:var(--paper);
+    transition:transform .3s ease, box-shadow .3s ease;
+    display:flex;flex-direction:column;gap:8px;
+  }
+  .spot:hover{transform:translateY(-3px);box-shadow:var(--shadow)}
+  .spot .kind{font-family:var(--mono);font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--terra)}
+  .spot h4{font-family:var(--serif);font-size:22px;font-weight:500;margin:2px 0 0;font-style:italic;letter-spacing:-0.01em;font-variation-settings:"opsz" 28}
+  .spot .addr{font-family:var(--mono);font-size:11.5px;color:var(--ink-soft);letter-spacing:.04em;margin-bottom:4px}
+  .spot .hrs{
+    display:inline-flex;align-items:center;gap:6px;
+    font-size:12.5px;color:var(--moss);
+    font-family:var(--mono);letter-spacing:.04em;
+  }
+  .spot .hrs .dot{width:6px;height:6px;border-radius:50%;background:var(--moss);display:inline-block}
+  .spot p{margin:6px 0 0;font-size:14.5px;color:var(--ink-soft);line-height:1.55}
+
+  /* ============ ITINERARIES ============ */
+  .itins{margin-top:80px}
+  .itins-head{margin-bottom:36px}
+  .itin-cards{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+  @media (max-width:880px){.itin-cards{grid-template-columns:1fr}}
+  .itin{
+    border-radius:18px;padding:32px;
+    border:1px solid var(--line);
+    background:var(--paper);
+    display:flex;flex-direction:column;gap:14px;
+    position:relative;overflow:hidden;
+  }
+  .itin::before{
+    content:"";position:absolute;top:0;left:0;right:0;height:4px;
+    background:linear-gradient(90deg, var(--terra), var(--amber));
+  }
+  .itin .num{font-family:var(--serif);font-style:italic;font-size:60px;color:var(--terra);line-height:0.9;font-variation-settings:"opsz" 96, "SOFT" 100}
+  .itin h4{font-family:var(--serif);font-size:24px;font-style:italic;font-weight:500;margin:0}
+  .itin .duration{font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-soft)}
+  .itin ol{margin:8px 0 0;padding:0;list-style:none;counter-reset:step;display:flex;flex-direction:column;gap:10px}
+  .itin ol li{
+    counter-increment:step;
+    padding-left:32px;position:relative;font-size:14.5px;line-height:1.55;color:var(--ink-soft);
+  }
+  .itin ol li::before{
+    content:counter(step);position:absolute;left:0;top:0;
+    width:22px;height:22px;border-radius:50%;
+    background:var(--moss);color:var(--cream);
+    display:flex;align-items:center;justify-content:center;
+    font-family:var(--mono);font-size:11px;
+  }
+  .itin .total{
+    margin-top:8px;padding-top:14px;border-top:1px dashed var(--line);
+    font-family:var(--mono);font-size:12px;color:var(--terra);letter-spacing:.04em;
+  }
+
+  /* ============ TIPS ============ */
+  .tips-section{padding:96px 0;border-top:1px solid var(--line)}
+  .tips-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:32px}
+  @media (max-width:880px){.tips-grid{grid-template-columns:1fr}}
+  .tip{
+    padding:24px;border:1px solid var(--line);border-radius:14px;
+    background:var(--cream);
+    display:flex;flex-direction:column;gap:8px;
+  }
+  .tip .icon{
+    width:36px;height:36px;border-radius:50%;
+    background:var(--moss);color:var(--cream);
+    display:flex;align-items:center;justify-content:center;
+    font-family:var(--serif);font-style:italic;font-size:18px;
+  }
+  .tip h4{font-family:var(--serif);font-size:20px;font-weight:500;margin:6px 0 0;font-style:italic}
+  .tip p{margin:0;font-size:14px;color:var(--ink-soft);line-height:1.55}
+
+  /* ============ CONTACT FOOTER ============ */
+  .footer{
+    background:var(--ink);color:var(--cream);
+    padding:80px 0 36px;position:relative;overflow:hidden;
+  }
+  .footer::before{
+    content:"";position:absolute;top:-100px;right:-100px;
+    width:480px;height:480px;border-radius:50%;
+    background:radial-gradient(circle, rgba(237,62,19,.28), rgba(99,37,78,.18) 50%, transparent 75%);
+    pointer-events:none;
+  }
+  .foot-inner{display:grid;grid-template-columns:1.5fr 1fr;gap:48px;position:relative}
+  @media (max-width:880px){.foot-inner{grid-template-columns:1fr;gap:36px}}
+  .footer h2{color:var(--cream);font-size:clamp(36px,5vw,56px);font-style:italic}
+  .footer h2 em{font-style:normal;color:var(--amber)}
+  .footer p{color:rgba(255,255,255,.7);font-size:15.5px;line-height:1.6;max-width:48ch}
+  .signature{
+    margin-top:32px;display:flex;flex-direction:column;gap:6px;
+  }
+  .signature span{font-family:var(--mono);font-size:11px;letter-spacing:.16em;color:var(--amber);text-transform:uppercase}
+  .signature .name{font-family:var(--serif);font-size:32px;font-style:italic;color:var(--cream);font-variation-settings:"opsz" 48, "SOFT" 80}
+  .signature .role{font-size:13px;color:rgba(255,255,255,.55)}
+  .foot-meta{
+    border-left:1px solid rgba(255,255,255,.12);
+    padding-left:32px;
+    display:flex;flex-direction:column;gap:18px;
+  }
+  @media (max-width:880px){.foot-meta{border-left:0;padding-left:0;border-top:1px solid rgba(255,255,255,.12);padding-top:32px}}
+  .foot-meta dl{display:grid;grid-template-columns:auto 1fr;gap:6px 18px;margin:0}
+  .foot-meta dt{font-family:var(--mono);font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--amber);padding-top:3px}
+  .foot-meta dd{margin:0;font-family:var(--serif);font-size:16px;color:var(--cream);font-variation-settings:"opsz" 24}
+  .foot-bottom{
+    margin-top:64px;padding-top:24px;
+    border-top:1px solid rgba(255,255,255,.12);
+    display:flex;justify-content:space-between;flex-wrap:wrap;gap:14px;
+    font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:rgba(255,255,255,.5);
+  }
+
+  /* ============ REVEAL ANIMATIONS ============ */
+  .reveal{opacity:0;transform:translateY(20px);transition:all .8s cubic-bezier(.22,.61,.36,1)}
+  .reveal.in{opacity:1;transform:translateY(0)}
+
+  /* ============ DECORATIVE FLOURISH ============ */
+  .ornament{
+    display:block;width:60px;height:24px;margin:0 auto 24px;
+    color:var(--terra);
+  }
+  .ornament svg{width:100%;height:100%}
+
+  /* utility */
+  .text-center{text-align:center}
+  .hidden{display:none}
+
+</style>
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="#top" class="brand">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <span><b>Halo</b> · BA 2026</span>
+    </a>
+    <button class="menu-btn" id="menuBtn" aria-label="Menu">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+    </button>
+    <div class="nav-links" id="navLinks">
+      <a href="#getting-here">Getting Here</a>
+      <a href="#hotels">Hotels</a>
+      <a href="#venue">Venue</a>
+      <a href="#agenda">Agenda</a>
+      <a href="#food">Food</a>
+      <a href="#dinners">Dinners</a>
+      <a href="#sunday">Free Sunday</a>
+      <a class="nav-cta" href="#help">Need help?</a>
+    </div>
+  </div>
+</nav>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="top">
+  <span class="halo-dots" style="top:38px;right:48px" aria-hidden="true"></span>
+  <span class="halo-dashed" style="bottom:60px;left:32px;width:64px;height:64px" aria-hidden="true"></span>
+  <div class="wrap hero-inner">
+    <div>
+      <div class="eyebrow">AI Transformation Summit 2026 · Halo Media</div>
+      <h1 style="margin-top:18px">
+        <span class="br">Welcome to</span>
+        <span class="br"><em>Buenos</em> Aires<span class="star">✦</span></span>
+      </h1>
+      <p class="lead" style="margin-top:24px">
+        A week of work, ideas, late dinners, and a city that rewards anyone who walks slowly and looks up. This is your unofficial-official guide — built by a local who actually lives here.
+      </p>
+    </div>
+    <aside class="hero-meta">
+      <dl>
+        <dt>Dates</dt><dd>June 1 → June 5, 2026</dd>
+        <dt>City</dt><dd>Buenos Aires, Argentina</dd>
+        <dt>Venue</dt><dd>Working &amp; Co Soler · Palermo</dd>
+        <dt>Hotels</dt><dd>Hotel Clásico · Be Hollywood</dd>
+        <dt>On-site contact</dt><dd>Vicky Ciabattini</dd>
+      </dl>
+    </aside>
+  </div>
+  <div class="wrap">
+    <div class="hero-strip">
+      <span><b>5</b> working days</span>
+      <span><b>2</b> mandatory dinners</span>
+      <span><b>1</b> free weekend if you arrive early</span>
+      <span><b>Ramp</b> card ready</span>
+      <span><b>1</b> on-site contact on speed dial</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============ AT A GLANCE ============ -->
+<section class="glance wrap" id="glance">
+  <div class="eyebrow">At a glance</div>
+  <h2 style="margin-top:14px;font-style:italic;max-width:18ch">The five things to know before you land.</h2>
+  <div class="glance-grid">
+    <div class="gcard reveal">
+      <span class="num">01</span>
+      <h4>Land. Open Uber.</h4>
+      <p>Skip the taxi touts at the airport. Uber or Cabify, pay with Ramp.</p>
+      <a href="#getting-here">Transport guide</a>
+    </div>
+    <div class="gcard reveal">
+      <span class="num">02</span>
+      <h4>Your room</h4>
+      <p>You're at Hotel Clásico or Be Hollywood. Check the pre-arrival email sent May 21.</p>
+      <a href="#hotels">Both hotels</a>
+    </div>
+    <div class="gcard reveal">
+      <span class="num">03</span>
+      <h4>The venue</h4>
+      <p>Working &amp; Co Soler — Soler 4445, Palermo. WiFi: <code>somosworking</code>.</p>
+      <a href="#venue">Venue details</a>
+    </div>
+    <div class="gcard reveal">
+      <span class="num">04</span>
+      <h4>The weekend is yours</h4>
+      <p>Arriving before June 1? The local guide below was built for exactly that.</p>
+      <a href="#sunday">A Sunday in BA</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ GETTING HERE ============ -->
+<section class="sec" id="getting-here">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <div class="eyebrow">Section 01</div>
+        <h2 style="margin-top:14px">Getting <em style="color:var(--terra);font-style:italic">here</em>.</h2>
+      </div>
+      <p class="lead">Three ways travelers usually arrive — and the same one piece of advice for all of them: <strong>do not take a taxi from the terminal touts</strong>. Open Uber or Cabify and pay with your Ramp card. We've tested it. It works.</p>
+    </div>
+
+    <div class="transport-grid">
+      <article class="tcard reveal">
+        <span class="badge">EZE · International</span>
+        <h3>Ezeiza Intl. Airport</h3>
+        <span class="time">≈ 50 minutes to Palermo</span>
+        <p>You'll come through international arrivals. Walk past the people offering taxis — they overcharge tourists. Open Uber or Cabify <em>from the terminal</em> and request the ride there.</p>
+        <div class="callout">
+          ⚠️ <b>Skip the taxi touts.</b> Request the ride from inside the terminal — the fare is shown upfront and Ramp pays directly.
+        </div>
+      </article>
+
+      <article class="tcard reveal">
+        <span class="badge">AEP · Domestic</span>
+        <h3>Jorge Newbery (Aeroparque)</h3>
+        <span class="time">≈ 10–15 minutes to Palermo</span>
+        <p>Aeroparque is right in the city, so your ride to the hotel is short and cheap. Same playbook: Uber or Cabify directly from the terminal. Ramp card on file.</p>
+      </article>
+
+      <article class="tcard reveal">
+        <span class="badge">Buquebus · Ferry</span>
+        <h3>Buquebus Terminal</h3>
+        <span class="time">≈ 20–25 minutes to Palermo</span>
+        <p>Coming in from Montevideo? You'll dock in Puerto Madero. Same rules apply — Uber or Cabify, paid with Ramp, no reimbursement paperwork needed.</p>
+      </article>
+    </div>
+
+    <div class="tip-row reveal">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 8v4M12 16h.01"/></svg>
+      <p><b>Ramp doesn't talk to Mercado Pago</b> (Argentina's local digital wallet). Add your card to <b>Google Pay or Apple Pay</b> before you land — it makes everything smoother once you're here.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ HOTELS ============ -->
+<section class="sec" id="hotels" style="background:linear-gradient(180deg, var(--paper), var(--cream))">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <div class="eyebrow">Section 02</div>
+        <h2 style="margin-top:14px">Where you're <em style="color:var(--terra);font-style:italic">staying</em>.</h2>
+      </div>
+      <p class="lead">The group is split between two boutique hotels, both in Palermo, both within a short walk of the venue. Your specific assignment, check-in/out dates and amenities are in <strong>the pre-arrival email sent May 21</strong> — subject line: <em>AI Transformation Summit 2026 — Your pre-arrival guide 🧳</em></p>
+    </div>
+
+    <div class="hotels-grid">
+      <article class="hotel reveal">
+        <div class="micro">Boutique · Palermo</div>
+        <h3>Hotel Clásico Palermo</h3>
+        <span class="addr">Costa Rica 5480, C1414 CABA</span>
+        <p style="color:var(--ink-soft);font-size:15px">A quietly elegant hotel a few blocks from Plaza Serrano, surrounded by the bookstores, cafés and tree-lined streets that make Palermo Soho what it is.</p>
+        <a class="link" href="https://www.hotelclasico.com/" target="_blank" rel="noopener">Visit hotel website →</a>
+      </article>
+
+      <article class="hotel reveal">
+        <div class="micro">Boutique · Palermo</div>
+        <h3>Be Hollywood Palermo</h3>
+        <span class="addr">Humboldt 1726, C1414 CTR CABA</span>
+        <p style="color:var(--ink-soft);font-size:15px">Stylish, design-forward, and minutes from the venue on foot. Sits right between Palermo Hollywood and Palermo Soho — best of both.</p>
+        <a class="link" href="https://www.behollywood.com/?lang=en" target="_blank" rel="noopener">Visit hotel website →</a>
+      </article>
+    </div>
+
+    <div class="tip-row reveal">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4h16v16H4z"/><path d="M4 8h16M8 4v16"/></svg>
+      <p>Can't find which hotel you're in? Check your inbox for the pre-arrival email sent <b>May 21</b>, or message Vicky Ciabattini directly.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ VENUE ============ -->
+<section class="sec" id="venue">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <div class="eyebrow">Section 03</div>
+        <h2 style="margin-top:14px">The <em style="color:var(--terra);font-style:italic">venue</em>.</h2>
+      </div>
+      <p class="lead">Working &amp; Co Soler is a beautiful shared coworking, but this week three spaces inside it are <strong>ours</strong>. Open Monday to Friday, 9 to 6.</p>
+    </div>
+
+    <div class="venue-grid">
+      <div class="reveal">
+        <div class="micro" style="color:var(--terra)">Address</div>
+        <h3 style="margin:8px 0 4px;font-style:italic">Working &amp; Co Soler</h3>
+        <p style="margin:0;font-family:var(--mono);font-size:13px;color:var(--ink-soft);letter-spacing:.04em">Soler 4445, Palermo · Buenos Aires</p>
+
+        <div class="wifi">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 12.55a11 11 0 0 1 14.08 0M1.42 9a16 16 0 0 1 21.16 0M8.53 16.11a6 6 0 0 1 6.95 0M12 20h.01"/></svg>
+          <div>
+            <div style="opacity:.7;font-size:11px;letter-spacing:.16em;text-transform:uppercase">WiFi</div>
+            <div><b>Password:</b> <span class="wifi-key">somosworking</span></div>
+          </div>
+        </div>
+
+        <p style="margin-top:18px;color:var(--ink-soft);font-size:15px">You'll also see QR codes posted around the space to connect instantly. The coworking is shared with other companies — please be mindful of the common areas.</p>
+
+        <div class="micro" style="color:var(--terra);margin-top:28px">In-room equipment</div>
+        <div class="equip" style="margin-top:10px">
+          <span class="chip">1 projector</span>
+          <span class="chip">1 flipchart</span>
+          <span class="chip">Speakers</span>
+          <span class="chip">Sticky notes</span>
+          <span class="chip">Markers + highlighters</span>
+          <span class="chip">Flipchart paper</span>
+        </div>
+        <div class="callout" style="margin-top:20px">
+          <b>Need something else?</b> Ask Vicky Ciabattini <em>at least one day in advance</em> so we can source it in time.<br>
+          <span style="display:inline-block;margin-top:6px;font-size:13px">🍫 <em>Fine print:</em> if you're going to ask for something over the weekend, Vicky Ciabattini will still help — but the penalty is <b>two chocolates</b>. Non-negotiable.</span>
+        </div>
+      </div>
+
+      <div class="reveal">
+        <div class="micro" style="color:var(--terra)">Daily rhythm at the venue</div>
+        <div class="schedule-strip">
+          <div class="meal">
+            <span class="time">09:00</span>
+            <span class="name">Breakfast</span>
+            <span class="when">Daily, on arrival</span>
+          </div>
+          <div class="meal">
+            <span class="time">12:30</span>
+            <span class="name">Lunch</span>
+            <span class="when">Daily, full service</span>
+          </div>
+          <div class="meal">
+            <span class="time">16:00</span>
+            <span class="name">Coffee break</span>
+            <span class="when">Mon–Thu only</span>
+          </div>
+        </div>
+        <p style="font-size:14.5px;color:var(--ink-soft);margin-top:18px">Catering knows about <b>keto and vegetarian</b> restrictions — at meal time, ask the catering team about the alternatives. Every diet is covered.</p>
+
+        <div class="micro" style="color:var(--terra);margin-top:28px">Three Halo-only spaces</div>
+        <div class="rooms">
+          <div class="room">
+            <span class="num">01</span>
+            <h4>The Auditorium</h4>
+            <p>Ground floor. Where the main sessions happen. Unisex bathrooms next door.</p>
+          </div>
+          <div class="room">
+            <span class="num">02</span>
+            <h4>Messi Room</h4>
+            <p>Second floor. Up to <b>6 people</b>. Reserve via Google Calendar → Rooms.</p>
+          </div>
+          <div class="room">
+            <span class="num">03</span>
+            <h4>Maradona Room</h4>
+            <p>Second floor. Up to <b>12 people</b>. Reserve via Google Calendar → Rooms.</p>
+          </div>
+          <div class="room" style="background:var(--moss);color:var(--cream);border-color:var(--moss)">
+            <span class="num" style="color:var(--amber)">↑</span>
+            <h4 style="color:var(--cream)">How to book</h4>
+            <p style="color:rgba(255,255,255,.8)">Open your meeting in Google Calendar → "Rooms" → pick Messi or Maradona. If you don't see them listed, they're already taken.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ AGENDA ============ -->
+<section class="sec" id="agenda" style="background:linear-gradient(180deg, var(--paper), var(--cream))">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <div class="eyebrow">Section 04</div>
+        <h2 style="margin-top:14px">The <em style="color:var(--terra);font-style:italic">agenda</em>.</h2>
+      </div>
+      <p class="lead">A week shaped around four themes, two mandatory dinners, and a hackathon that closes things out on Thursday. The detailed session-by-session schedule lives in the master deck — this is the shape of the week.</p>
+    </div>
+
+    <div class="agenda-note reveal">
+      <div class="agenda-note-icon">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+      </div>
+      <p><b>Heads up — this agenda is tentative.</b> Some session times may shift by a few minutes once we're on the ground. Any changes will show up in your <b>Google Calendar</b> in real time, so trust the calendar over this page if something looks different.</p>
+    </div>
+
+    <div class="agenda">
+      <div class="day reveal">
+        <span class="date">Mon · June 1</span>
+        <div>
+          <h3>The Path Forward</h3>
+          <p>Opening keynote, People &amp; Culture reset, Performance Drivers, H2 Goals overview. Dinner: free choice ($50 Ramp allowance for traveling participants).</p>
+        </div>
+        <span class="pill">Day 1</span>
+      </div>
+
+      <div class="day reveal">
+        <span class="date">Tue · June 2</span>
+        <div>
+          <h3>Operational Transformation</h3>
+          <p>Dewey demo, job descriptions &amp; upskilling, product and AI, SDLC transformation, skills framework. <b>Mandatory dinner</b> at 8:30pm.</p>
+        </div>
+        <span class="pill">Day 2</span>
+      </div>
+
+      <div class="day reveal">
+        <span class="date">Wed · June 3</span>
+        <div>
+          <h3>Performance &amp; Innovation</h3>
+          <p>Finance briefing, H2 goals working session, hackathon workshop in the afternoon. <b>Mandatory dinner</b> at 8:30pm.</p>
+        </div>
+        <span class="pill">Day 3</span>
+      </div>
+
+      <div class="day reveal">
+        <span class="date">Thu · June 4</span>
+        <div>
+          <h3>Alignment &amp; Commitments</h3>
+          <p>Hackathon review of outcomes, toolkits to H2 goals, summit close and next steps. Dinner: free choice ($50 Ramp allowance for traveling participants).</p>
+        </div>
+        <span class="pill">Day 4</span>
+      </div>
+
+      <div class="day reveal">
+        <span class="date">Fri · June 5</span>
+        <div>
+          <h3>Departure</h3>
+          <p>Check-out and onward travel. Same Uber + Ramp playbook in reverse.</p>
+        </div>
+        <span class="pill">Day 5</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOD ============ -->
+<section class="sec" id="food">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <div class="eyebrow">Section 05</div>
+        <h2 style="margin-top:14px">What you'll <em style="color:var(--terra);font-style:italic">eat</em>.</h2>
+      </div>
+      <p class="lead">Catering at the venue is full-service — breakfast, lunch and a coffee break (Mon–Thu) — built specifically for Halo. Keto and vegetarian alternatives are included every day. Tap a day to expand the menu.</p>
+    </div>
+
+    <div class="menu-stack">
+
+      <details class="menu reveal">
+        <summary>
+          <div class="menu-head">
+            <span class="day-num">Day 01 · Mon June 1</span>
+            <h3>Welcome plates</h3>
+          </div>
+          <span class="menu-toggle">+</span>
+        </summary>
+        <div class="menu-body">
+          <div class="meal-col">
+            <h5>🥐 Breakfast</h5>
+            <ul>
+              <li>Coffee, milk, coconut milk powder</li>
+              <li>Lemonade with mint &amp; ginger · Water</li>
+              <li>Butter medialunas</li>
+              <li>Seasonal cut fruit</li>
+              <li>Artisanal cereal bars</li>
+              <li>Vanilla yogurt with granola</li>
+              <li>Mini homemade loaf cakes</li>
+              <li>Pancakes with banana &amp; chocolate</li>
+            </ul>
+          </div>
+          <div class="meal-col">
+            <h5>🍽 Lunch</h5>
+            <div class="sub">Finger foods</div>
+            <ul>
+              <li>Panko-breaded prawn skewers</li>
+              <li>Mini chori bombón with criolla sauce <span class="keto">KETO</span></li>
+              <li>Hand-cut beef empanaditas</li>
+              <li>Potato &amp; melted cheese tortillas</li>
+              <li>Broccoli &amp; corn soufflé muffins</li>
+              <li>Caprese bocconcino skewers</li>
+              <li>Ham, mozzarella &amp; chive fried sorrentinos</li>
+              <li>Chicken alioli alemancito <span class="keto">KETO</span></li>
+              <li>Avocado &amp; scrambled egg bruschetta <span class="keto">KETO</span></li>
+            </ul>
+            <div class="sub">Main</div>
+            <ul>
+              <li>Chicken &amp; vegetable tacos / veggie tacos</li>
+              <li>Keto: chicken &amp; vegetable casserole <span class="keto">KETO</span></li>
+            </ul>
+            <div class="sub">Dessert</div>
+            <ul>
+              <li>Tiramisu shot</li>
+              <li>Red berry cheesecake shot</li>
+              <li>Fruit salad <span class="keto">KETO</span></li>
+            </ul>
+          </div>
+          <div class="meal-col">
+            <h5>☕ Coffee break</h5>
+            <ul>
+              <li>Coffee, milk, coconut milk powder</li>
+              <li>Mini ham &amp; cheese sandwiches <span class="keto">KETO</span></li>
+              <li>Caprese arabecito <span class="keto">KETO</span></li>
+              <li>Seasonal cut fruit</li>
+              <li>Artisanal cereal bars</li>
+              <li>Mini loaf cakes</li>
+              <li>Parmesan crackers · Talitas</li>
+              <li>Vanilla yogurt with granola</li>
+              <li>Pancakes with banana &amp; chocolate</li>
+            </ul>
+          </div>
+        </div>
+      </details>
+
+      <details class="menu reveal">
+        <summary>
+          <div class="menu-head">
+            <span class="day-num">Day 02 · Tue June 2</span>
+            <h3>Pasta &amp; long-cooked beef</h3>
+          </div>
+          <span class="menu-toggle">+</span>
+        </summary>
+        <div class="menu-body">
+          <div class="meal-col">
+            <h5>🥐 Breakfast</h5>
+            <ul>
+              <li>Coffee, milk, coconut milk powder</li>
+              <li>Lemonade with mint &amp; ginger · Water</li>
+              <li>Butter medialunas</li>
+              <li>Seasonal cut fruit</li>
+              <li>Cereal bars · Yogurt with granola</li>
+              <li>Mini waffles</li>
+              <li>Brownies</li>
+            </ul>
+          </div>
+          <div class="meal-col">
+            <h5>🍽 Lunch</h5>
+            <div class="sub">Finger foods</div>
+            <ul>
+              <li>Sambusek: parmesan, mozzarella &amp; caramelized onion</li>
+              <li>Pork &amp; nira gyozas with soy reduction</li>
+              <li>Broccoli &amp; corn soufflé muffins</li>
+              <li>Mediterranean bruschetta: prosciutto &amp; olives <span class="keto">KETO</span></li>
+            </ul>
+            <div class="sub">Salad</div>
+            <ul>
+              <li>Mixed: lettuce, tomato, red onion</li>
+            </ul>
+            <div class="sub">Mains</div>
+            <ul>
+              <li>Slow-cooked vacío with potato &amp; carrot purée</li>
+              <li>Gnocchi with tomato filetto &amp; basil pesto</li>
+            </ul>
+            <div class="sub">Dessert</div>
+            <ul>
+              <li>Oreo shot</li>
+              <li>Passionfruit cheesecake shot</li>
+              <li>Keto sweet dessert <span class="keto">KETO</span></li>
+            </ul>
+          </div>
+          <div class="meal-col">
+            <h5>☕ Coffee break</h5>
+            <ul>
+              <li>Coffee, milk, coconut milk powder</li>
+              <li>Mini sándwiches de miga</li>
+              <li>Criollitos</li>
+              <li>Seasonal cut fruit · Cereal bars</li>
+              <li>Mini loaf cakes</li>
+              <li>Parmesan crackers · Talitas</li>
+              <li>Quince pasta frola</li>
+              <li>Plain yogurt</li>
+            </ul>
+          </div>
+        </div>
+      </details>
+
+      <details class="menu reveal">
+        <summary>
+          <div class="menu-head">
+            <span class="day-num">Day 03 · Wed June 3</span>
+            <h3>Skewers &amp; greens</h3>
+          </div>
+          <span class="menu-toggle">+</span>
+        </summary>
+        <div class="menu-body">
+          <div class="meal-col">
+            <h5>🥐 Breakfast</h5>
+            <ul>
+              <li>Coffee, milk, coconut milk powder</li>
+              <li>Lemonade · Water</li>
+              <li>Butter medialunas</li>
+              <li>Seasonal cut fruit · Cereal bars</li>
+              <li>Yogurt with granola</li>
+              <li>Mini loaf cakes</li>
+              <li>Chocolate chip &amp; oatmeal cookies</li>
+            </ul>
+          </div>
+          <div class="meal-col">
+            <h5>🍽 Lunch</h5>
+            <div class="sub">Finger foods</div>
+            <ul>
+              <li>Asado &amp; caramelized onion buns <span class="keto">KETO</span></li>
+              <li>Caprese bombita</li>
+              <li>Stuffed eggs (also veggie &amp; keto) <span class="keto">KETO</span></li>
+              <li>Cherry tomato confit &amp; cream cheese bruschetta <span class="keto">KETO</span></li>
+            </ul>
+            <div class="sub">Salad</div>
+            <ul>
+              <li>Greens, cherry tomato, corn, avocado</li>
+            </ul>
+            <div class="sub">Mains</div>
+            <ul>
+              <li>Chicken &amp; vegetable brochette</li>
+              <li>Vegetable stir-fry <span class="keto">KETO</span></li>
+            </ul>
+            <div class="sub">Dessert</div>
+            <ul>
+              <li>Chocotorta paletitas dipped in chocolate</li>
+              <li>Lemon pie shot</li>
+              <li>Fruit salad <span class="keto">KETO</span></li>
+            </ul>
+          </div>
+          <div class="meal-col">
+            <h5>☕ Coffee break</h5>
+            <ul>
+              <li>Coffee, milk, coconut milk powder</li>
+              <li>Ham &amp; cheese medialunas</li>
+              <li>Caprese arabecito <span class="keto">KETO</span></li>
+              <li>Seasonal cut fruit · Cereal bars</li>
+              <li>Mini loaf cakes</li>
+              <li>Parmesan crackers · Talitas</li>
+              <li>Chipacitos</li>
+            </ul>
+          </div>
+        </div>
+      </details>
+
+      <details class="menu reveal">
+        <summary>
+          <div class="menu-head">
+            <span class="day-num">Day 04 · Thu June 4</span>
+            <h3>BBQ ribs day</h3>
+          </div>
+          <span class="menu-toggle">+</span>
+        </summary>
+        <div class="menu-body">
+          <div class="meal-col">
+            <h5>🥐 Breakfast</h5>
+            <ul>
+              <li>Coffee, milk, coconut milk powder</li>
+              <li>Lemonade · Water</li>
+              <li>Butter medialunas</li>
+              <li>Seasonal cut fruit · Cereal bars</li>
+              <li>Yogurt with granola</li>
+              <li>Brownies</li>
+              <li>Quince pasta frola</li>
+            </ul>
+          </div>
+          <div class="meal-col">
+            <h5>🍽 Lunch</h5>
+            <div class="sub">Finger foods</div>
+            <ul>
+              <li>Hand-cut beef empanaditas</li>
+              <li>Potato &amp; melted cheese tortillas</li>
+              <li>Tokyo kanikama rolls</li>
+              <li>Caprese bocconcino skewers</li>
+            </ul>
+            <div class="sub">Salad</div>
+            <ul>
+              <li>Coleslaw</li>
+            </ul>
+            <div class="sub">Mains</div>
+            <ul>
+              <li>BBQ ribs with roasted sweet potato</li>
+              <li>Ribs (no BBQ) with dressing-free slaw &amp; greens <span class="keto">KETO</span></li>
+              <li>Ricotta &amp; walnut raviolones with rosa sauce</li>
+            </ul>
+            <div class="sub">Dessert</div>
+            <ul>
+              <li>Tiramisu shot</li>
+              <li>Red berry cheesecake shot</li>
+              <li>Keto sweet <span class="keto">KETO</span></li>
+            </ul>
+          </div>
+          <div class="meal-col">
+            <h5>☕ Coffee break</h5>
+            <ul>
+              <li>Coffee, milk, coconut milk powder</li>
+              <li>Ham &amp; cheese medialunas</li>
+              <li>Seasonal cut fruit · Cereal bars</li>
+              <li>Mini loaf cakes</li>
+              <li>Parmesan crackers · Talitas</li>
+              <li>Vanilla yogurt with granola</li>
+            </ul>
+          </div>
+        </div>
+      </details>
+
+      <details class="menu reveal">
+        <summary>
+          <div class="menu-head">
+            <span class="day-num">Day 05 · Fri June 5</span>
+            <h3>Farewell lunch</h3>
+          </div>
+          <span class="menu-toggle">+</span>
+        </summary>
+        <div class="menu-body">
+          <div class="meal-col">
+            <h5>🥐 Breakfast</h5>
+            <ul>
+              <li>Coffee, milk, coconut milk powder</li>
+              <li>Lemonade · Water</li>
+              <li>Butter medialunas</li>
+              <li>Seasonal cut fruit · Cereal bars</li>
+              <li>Yogurt with granola</li>
+              <li>Mini loaf cakes</li>
+              <li>Chocolate chip &amp; oatmeal cookies</li>
+              <li>Banana &amp; chocolate pancakes</li>
+            </ul>
+          </div>
+          <div class="meal-col">
+            <h5>🍽 Lunch</h5>
+            <div class="sub">Finger foods</div>
+            <ul>
+              <li>Panko prawn skewers</li>
+              <li>Mini burger with cheddar &amp; caramelized onion</li>
+              <li>Broccoli &amp; corn soufflé muffins</li>
+              <li>Gourmet pizzas (blue cheese &amp; malbec onion, ham, napolitana)</li>
+              <li>Keto pizzas (blue cheese, napolitana) <span class="keto">KETO</span></li>
+            </ul>
+            <div class="sub">Main</div>
+            <ul>
+              <li>Chicken curry with coconut milk &amp; spiced rice</li>
+              <li>Grilled chicken with quinoa wok <span class="keto">KETO</span></li>
+            </ul>
+            <div class="sub">Dessert</div>
+            <ul>
+              <li>Chocotorta paletitas in chocolate</li>
+              <li>Fruit salad <span class="keto">KETO</span></li>
+            </ul>
+          </div>
+          <div class="meal-col">
+            <h5>☕ Coffee break</h5>
+            <ul>
+              <li>Friday wraps after lunch — no afternoon break.</li>
+              <li>Catch your flight, see you next year.</li>
+            </ul>
+          </div>
+        </div>
+      </details>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ DINNERS ============ -->
+<section class="sec" id="dinners" style="background:linear-gradient(180deg, var(--paper), var(--cream))">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <div class="eyebrow">Section 06</div>
+        <h2 style="margin-top:14px">The two <em style="color:var(--terra);font-style:italic">dinners</em>.</h2>
+      </div>
+      <p class="lead">Tuesday and Wednesday nights are <strong>mandatory group dinners</strong>. Both at 8:30pm. Wine and food included. Show up hungry.</p>
+    </div>
+
+    <div class="dinners">
+
+      <article class="dinner tue reveal">
+        <span class="when">Tue · June 2 · 20:30</span>
+        <h3>Andante</h3>
+        <span class="addr">Arévalo 1677 · Palermo</span>
+
+        <div class="menu-grid">
+          <div class="course">
+            <h6>Starters</h6>
+            <ul>
+              <li>Tucumana empanada · braised matambre, fried</li>
+              <li>Provoleta · grill cheese, cherry tomato, basil</li>
+              <li>Sweetbread tacos · yellow pepper cream, avocado, pickles</li>
+            </ul>
+          </div>
+          <div class="course">
+            <h6>Mains (choose)</h6>
+            <ul>
+              <li>Bife de chorizo</li>
+              <li>BBQ ribs</li>
+              <li>Mushroom risotto</li>
+              <li>Gireum Teokbokki</li>
+            </ul>
+          </div>
+          <div class="course">
+            <h6>Dessert</h6>
+            <ul>
+              <li>Pancake with dulce de leche</li>
+              <li>Chocolate marquise</li>
+            </ul>
+          </div>
+          <div class="course">
+            <h6>Drinks</h6>
+            <ul>
+              <li>1 bottle of wine per 2 people</li>
+              <li>2 non-alcoholic / other drinks (beer, lemonade, soda, water)</li>
+            </ul>
+          </div>
+        </div>
+
+        <a class="map" href="https://maps.app.goo.gl/HbF3rFNsC3Xe57Gz8" target="_blank" rel="noopener">Open in Maps →</a>
+      </article>
+
+      <article class="dinner wed reveal">
+        <span class="when">Wed · June 3 · 20:30</span>
+        <h3>Bodegón Hierro</h3>
+        <span class="addr">Fitz Roy 1722 · Palermo</span>
+
+        <div class="warn">⚠️ <b>Do not confuse with "Hierro Parrilla"</b> — that's a different restaurant. Look for <b>Bodegón Hierro</b>.</div>
+
+        <div class="menu-grid">
+          <div class="course">
+            <h6>Starters</h6>
+            <ul>
+              <li>Beef empanada · braised osobuco, roasted tomato, egg, scallion</li>
+              <li>House parrilla sausage with chimichurri Hierro</li>
+              <li>Grilled sweetbreads · gremolata &amp; burnt lemon</li>
+              <li>Crispy provoleta with fresh oregano</li>
+            </ul>
+          </div>
+          <div class="course">
+            <h6>Main · Grill board</h6>
+            <ul>
+              <li>Bife de chorizo (21-day aged)</li>
+              <li>Vacío (slow-grilled)</li>
+              <li>Lomo</li>
+              <li>BO chimichurri on the side</li>
+            </ul>
+          </div>
+          <div class="course">
+            <h6>Sides</h6>
+            <ul>
+              <li>Smashed potatoes</li>
+              <li>Mixed Hierro salad: organic greens, cherry tomato, red onion</li>
+            </ul>
+          </div>
+          <div class="course">
+            <h6>🥑 Veggie option</h6>
+            <ul>
+              <li>Black bean empanada</li>
+              <li>Mushroom &amp; jalapeño aioli arancini</li>
+              <li>Roasted carrot with cauliflower purée &amp; basil</li>
+              <li>Charred leek with citrus cream, gremolata, pistachios</li>
+              <li>Main: chard &amp; ricotta cannelloni, béchamel, almonds</li>
+            </ul>
+          </div>
+          <div class="course">
+            <h6>Dessert (choose)</h6>
+            <ul>
+              <li>Pancake with dulce de leche</li>
+              <li>Flan with dulce de leche &amp; cream</li>
+            </ul>
+          </div>
+          <div class="course">
+            <h6>🥂 Drinks · 3hr open bar</h6>
+            <ul>
+              <li>Unlimited water (still / sparkling)</li>
+              <li>One Coca-Cola line soda per guest</li>
+              <li>Wines: Saint Felicien Malbec, Fumé Blanc</li>
+              <li>Beer: Minga Pilsner</li>
+              <li>Cocktails: Aperol Spritz, Gin Tonic (classic / grapefruit / cucumber), Cynar Julep, Fernet</li>
+            </ul>
+          </div>
+        </div>
+
+        <a class="map" href="https://maps.app.goo.gl/3LDByKdgxN18PkqB7" target="_blank" rel="noopener">Open in Maps →</a>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ SUNDAY (THE EDITORIAL CENTERPIECE) ============ -->
+<section class="sunday" id="sunday">
+  <span class="halo-dots" style="top:80px;left:48px;width:64px;height:64px;background-size:12px 12px" aria-hidden="true"></span>
+  <span class="halo-dashed" style="top:60px;right:48px" aria-hidden="true"></span>
+  <div class="wrap">
+
+    <div class="sunday-hero">
+      <div>
+        <div class="eyebrow">Section 07 · A guide by Vicky Ciabattini</div>
+        <h2 style="margin-top:18px">A Sunday in <em>Buenos</em> Aires.</h2>
+      </div>
+      <div class="sunday-quote">
+        Buenos Aires isn't a city you visit. It's a city you walk, smell, look up at. The point isn't to tick attractions off a list — it's to let a block you weren't expecting stop you in your tracks. This guide is built for that.
+      </div>
+    </div>
+
+    <p style="font-size:16.5px;line-height:1.65;color:var(--ink-soft);max-width:62ch">
+      <b>Practical note:</b> you're staying in <b>Palermo</b>. That's a great starting point — one of the highest densities of beautiful things per square block in the city. But Buenos Aires has much more. To move between neighborhoods, just open <b>Uber or Cabify</b> — both work perfectly here with international cards. Rides between the neighborhoods I'll recommend cost between <b>$2–6 USD</b> and take 10–20 minutes. The subway (subte) is also cheap and efficient on some lines; you need a SUBE card, sold at any kiosk for under a dollar.
+    </p>
+
+    <!-- ====== NEIGHBORHOODS ====== -->
+    <div class="neighborhood">
+      <div class="eyebrow" style="color:var(--moss);margin-bottom:14px">— Neighborhoods worth your time</div>
+
+      <div class="nbar" role="tablist">
+        <button class="active" data-nh="palermo">Palermo</button>
+        <button data-nh="santelmo">San Telmo</button>
+        <button data-nh="recoleta">Recoleta</button>
+        <button data-nh="chacarita">Chacarita</button>
+        <button data-nh="villacrespo">Villa Crespo</button>
+        <button data-nh="colegiales">Colegiales</button>
+        <button data-nh="belgrano">Belgrano R</button>
+      </div>
+
+      <!-- ===== PALERMO ===== -->
+      <div class="nhood active" data-nh="palermo">
+        <h3>Palermo</h3>
+        <p class="nintro">What you have around you — and shouldn't miss. Almost everything below is walkable from either hotel.</p>
+
+        <div class="eyebrow" style="color:var(--terra);margin-bottom:14px">Bookstores that are entire worlds</div>
+        <div class="spots">
+
+          <article class="spot reveal">
+            <span class="kind">Bookstore · Palermo Soho</span>
+            <h4>Eterna Cadencia</h4>
+            <span class="addr">Honduras 5574</span>
+            <span class="hrs"><span class="dot"></span>Sat 10–22 · Sun 12–20</span>
+            <p>Not just a bookstore — a publishing house with a garden patio where people actually read. Curated mix of contemporary Argentine narrative, essay, poetry, and translations you won't find anywhere else. Order a cortado, browse the "House Recommendations" shelf, and you'll leave an hour later with three books under your arm. Mid-morning or mid-afternoon is best. No reservation needed.</p>
+          </article>
+
+          <article class="spot reveal">
+            <span class="kind">Bookstore · Palermo Soho</span>
+            <h4>Libros del Pasaje</h4>
+            <span class="addr">Thames 1762</span>
+            <span class="hrs"><span class="dot"></span>Sat 10–21 · Sun 12–20</span>
+            <p>A beautiful old townhouse with books from floor to ceiling, mixing Argentine indie publishers with very well-chosen imports. They often host book launches on weekends. The back café has gorgeous natural light. Pair it with Eterna Cadencia — they're a 10-minute walk apart.</p>
+          </article>
+
+        </div>
+
+        <div class="eyebrow" style="color:var(--terra);margin:36px 0 14px">Cafés that justify the visit, not just the coffee</div>
+        <div class="spots">
+
+          <article class="spot reveal">
+            <span class="kind">Specialty café</span>
+            <h4>LAB Café</h4>
+            <span class="addr">Humboldt 1542</span>
+            <span class="hrs"><span class="dot"></span>Sat &amp; Sun · ≈ 8:30–19</span>
+            <p>Specialty coffee done seriously. Not the photogenic latte-art place — this is where the barista knows the farm and how each extraction method affects the cup. Small, quiet, good music. Order a pour-over or V60 and ask what Argentine bean they have (yes, there are local producers).</p>
+          </article>
+
+          <article class="spot reveal">
+            <span class="kind">Specialty café</span>
+            <h4>Cuervo Café</h4>
+            <span class="addr">Thames, between Honduras and El Salvador</span>
+            <span class="hrs"><span class="dot"></span>Sat &amp; Sun · ≈ 9–19</span>
+            <p>Another excellent specialty spot, more relaxed in vibe. Ideal for sitting outside on a Sunday morning with a flat white and watching Palermo wake up. Near Plaza Serrano.</p>
+          </article>
+
+          <article class="spot reveal">
+            <span class="kind">French patisserie</span>
+            <h4>L'Harmonie</h4>
+            <span class="addr">Gorriti, between Thames and Serrano</span>
+            <span class="hrs"><span class="dot"></span>Sat &amp; Sun · ≈ 9–20</span>
+            <p>A French pâtisserie that takes the idea of transporting you very seriously. The croissants are among the best in the city — and that's saying something in a town obsessed with medialunas. Sundays can be a small wait, but worth it.</p>
+          </article>
+
+        </div>
+
+        <div class="eyebrow" style="color:var(--terra);margin:36px 0 14px">Walking, looking, getting lost</div>
+        <div class="spots">
+
+          <article class="spot reveal">
+            <span class="kind">Street art · Palermo Soho</span>
+            <h4>The hidden passages</h4>
+            <span class="addr">Coronel Cabrera · Russell · Soria · Santa Rosa</span>
+            <span class="hrs"><span class="dot"></span>Anytime · best with afternoon light</span>
+            <p>Short cobblestone passages with stencils, climbing plants, murals, drawings. Not signposted tourist attractions — they're real residential alleys where street art lives alongside old architecture in a way only Buenos Aires really does. Pasaje Santa Rosa (off Plaza Serrano) is the most intervened, a collective canvas.</p>
+          </article>
+
+          <article class="spot reveal">
+            <span class="kind">Park · Free</span>
+            <h4>Jardín Botánico Carlos Thays</h4>
+            <span class="addr">Av. Santa Fe 3951</span>
+            <span class="hrs"><span class="dot"></span>Sat &amp; Sun · 8–18</span>
+            <p>People walk past and don't go in. Mistake. A 19th-century garden by the same landscape architect who designed the Bosques de Palermo — sculptures hidden among the vegetation, an Art Nouveau greenhouse out of a novel, silent paths, and an absurd number of resident cats. Walk slowly. Morning light is best.</p>
+          </article>
+
+          <article class="spot reveal">
+            <span class="kind">Park · Free</span>
+            <h4>El Rosedal &amp; the Palermo Lakes</h4>
+            <span class="addr">Av. Infanta Isabel</span>
+            <span class="hrs"><span class="dot"></span>All day · best before 10 or after 17</span>
+            <p>You've heard of it. The real tip: <b>don't go on a Sunday at noon</b> — it'll be packed with families and vendors. Go early morning or late afternoon. At those hours it's silent, the light is golden, the lakes mirror the trees. The Greek bridge, rose pergolas, paths. Cross toward Av. Figueroa Alcorta for a quieter corner with rowboats and a great skyline view. That's the "wow, this is Buenos Aires" moment.</p>
+          </article>
+
+          <article class="spot reveal">
+            <span class="kind">Museum</span>
+            <h4>MALBA</h4>
+            <span class="addr">Av. Figueroa Alcorta 3415</span>
+            <span class="hrs"><span class="dot"></span>Sat &amp; Sun · 12–20</span>
+            <p>The Museo de Arte Latinoamericano. The contemporary building is worth the visit on its own. Permanent collection has essential Latin American works (Frida Kahlo, Diego Rivera, Xul Solar, Berni) and the temporary shows are usually excellent. An hour and a half is enough. Great design shop. Walking distance from the Rosedal.</p>
+          </article>
+
+          <article class="spot reveal">
+            <span class="kind">Gallery</span>
+            <h4>Gachi Prieto Galería</h4>
+            <span class="addr">Uriarte 1373 · Palermo Soho</span>
+            <span class="hrs"><span class="dot"></span>Sat · usually 14–19 · Sun check</span>
+            <p>Contemporary Argentine art gallery, dynamic and well-curated. Supports younger artists, runs residencies. The shows rotate often and there's always something interesting up. Free entry, friendly, not intimidating — a great entry point if you want to see what's happening in Argentine art right now.</p>
+          </article>
+
+          <article class="spot reveal">
+            <span class="kind">Gallery</span>
+            <h4>HACHE Galería</h4>
+            <span class="addr">Loyola 32 · Villa Crespo border</span>
+            <span class="hrs"><span class="dot"></span>Sat · Sundays typically closed</span>
+            <p>Contemporary art with a sharp curatorial eye, in a beautifully restored PH. 5 minutes' walk from Palermo. If you're in the area on a Saturday, worth a peek.</p>
+          </article>
+
+        </div>
+      </div>
+
+      <!-- ===== SAN TELMO ===== -->
+      <div class="nhood" data-nh="santelmo">
+        <h3>San Telmo</h3>
+        <p class="nintro">The neighborhood with the most layers of history. Cobblestone streets, colonial townhouses turned galleries and bars, wrought-iron balconies. Sundays are San Telmo's best day — with a caveat: the Defensa Street fair gets very crowded. Go <b>before 11am</b>, or duck into the side streets.</p>
+        <span class="getting">From Palermo · <b>Uber 15–20 min · ~ $3–4 USD</b></span>
+
+        <div class="spots">
+
+          <article class="spot reveal">
+            <span class="kind">Market · 1897</span>
+            <h4>Mercado de San Telmo</h4>
+            <span class="addr">Defensa 960</span>
+            <span class="hrs"><span class="dot"></span>Sat &amp; Sun · ≈ 8–19</span>
+            <p>An iron-frame market from 1897 (like Les Halles, but it survived). Inside: a labyrinth of stalls — historic greengrocers, butchers, a deli with extraordinary Argentine cheeses, plus specialty cafés, antique stands and a craft brewery. Not a tourist build-out — a real working market that happens to also have beautiful things. Walk the interior aisles slowly.</p>
+          </article>
+
+          <article class="spot reveal">
+            <span class="kind">Architecture · Antiques</span>
+            <h4>Pasaje de la Defensa</h4>
+            <span class="addr">Defensa 1179</span>
+            <span class="hrs"><span class="dot"></span>Sat &amp; Sun</span>
+            <p>A 19th-century townhouse turned into a passage of antique dealers and artisans. The real reason to go is the interior architecture: the patio with its skylight, the galleries, the marble staircase. Walk in even if you're not buying.</p>
+          </article>
+
+          <article class="spot reveal">
+            <span class="kind">Hidden gem · Museum/passage</span>
+            <h4>Cassa Lepage — Pasaje Belgrano</h4>
+            <span class="addr">Bolívar 373 · San Telmo / Monserrat</span>
+            <span class="hrs"><span class="dot"></span>Sat &amp; Sun</span>
+            <p>One of the best-kept secrets of the old city. A restored 19th-century passage that today is part cultural space, site museum and boutique hotel. Under glass floors, real archaeological remains — inkpots, jars, daily objects from the 17th–19th centuries. From the rooftop you can see domes, murals and a native plant garden. Argentina's first-ever film shoot happened in this passage in 1900. Go up to the terrace if you can.</p>
+          </article>
+
+          <article class="spot reveal">
+            <span class="kind">English bookstore</span>
+            <h4>Walrus Books</h4>
+            <span class="addr">Estados Unidos 617</span>
+            <span class="hrs"><span class="dot"></span>Sat 11–20 · Sun 12–19</span>
+            <p>For English readers. A tiny, bohemian shop full of second-hand finds in Anglo-American literature. The owner recommends with real, genuine passion. It feels like walking into a friend's library — a friend who lived in New York and came back with suitcases of books.</p>
+          </article>
+
+        </div>
+
+        <p style="margin-top:24px;color:var(--ink-soft);font-size:14.5px;line-height:1.55"><b>Streets to wander:</b> beyond Defensa, walk Bolívar, Carlos Calvo, Estados Unidos, Humberto Primo. Quiet blocks, original cobblestones, old trees — that feeling of being inside a European city that decided to stay in South America.</p>
+      </div>
+
+      <!-- ===== RECOLETA ===== -->
+      <div class="nhood" data-nh="recoleta">
+        <h3>Recoleta</h3>
+        <p class="nintro">The most French neighborhood in Buenos Aires. Haussmann-style buildings, enormous trees, wide sidewalks. Where the porteño bourgeoisie of the 19th century decided to live — and you can feel it on every block.</p>
+        <span class="getting">From Palermo · <b>Walk 25–30 min · or Uber 5–8 min · ~ $2 USD</b></span>
+
+        <div class="spots">
+
+          <article class="spot reveal">
+            <span class="kind">Museum · Free</span>
+            <h4>Museo Nacional de Bellas Artes</h4>
+            <span class="addr">Av. del Libertador 1473</span>
+            <span class="hrs"><span class="dot"></span>Sat &amp; Sun 11–20 · Tue closed</span>
+            <p>Permanent collection: Goya, El Greco, Rodin, Monet, Degas, Renoir, Modigliani — plus one of the best 19th–20th century Argentine art collections anywhere. The building was a former water pumping station, so the spaces are large and luminous. An hour and a half is enough. The European Impressionism room is surprisingly strong for a Latin American museum.</p>
+          </article>
+
+          <article class="spot reveal">
+            <span class="kind">Sculpture + architecture</span>
+            <h4>Floralis Genérica &amp; Faculty of Law</h4>
+            <span class="addr">Just behind Bellas Artes</span>
+            <span class="hrs"><span class="dot"></span>Anytime</span>
+            <p>Exit the museum through the back and you're facing the giant metal flower that opens and closes with the sun, and the impressive brutalist Faculty of Law building. Big-sky, big-space moment.</p>
+          </article>
+
+          <article class="spot reveal">
+            <span class="kind">Hidden palace · Retiro</span>
+            <h4>Palacio Noel — Museo Fernández Blanco</h4>
+            <span class="addr">Suipacha 1422</span>
+            <span class="hrs"><span class="dot"></span>Sat &amp; Sun 11–20 · Tue closed</span>
+            <p>The kind of place that makes you say "how does this exist and nobody mentioned it?" A 1920s neocolonial palace built by architect Martín Noel as his own home — Limeño balconies, baroque details, and Andalusian-inspired gardens that are a hidden oasis. The interior has viceregal Hispano-American art, but the real mind-blower is the garden: olives, orange trees, ombú, jacarandás, and a silence you wouldn't believe is blocks from 9 de Julio. <b>Go.</b></p>
+          </article>
+
+          <article class="spot reveal">
+            <span class="kind">Plaza · Sunday fair</span>
+            <h4>Plaza Francia + Recoleta Cultural Center</h4>
+            <span class="addr">Junín 1930</span>
+            <span class="hrs"><span class="dot"></span>Sunday craft fair active</span>
+            <p>The Sunday craft fair here is prettier and less mobbed than San Telmo's. Next to it: the free Centro Cultural Recoleta (always has contemporary art exhibitions) and the 1732 Iglesia del Pilar with colonial cloisters almost no one visits.</p>
+          </article>
+
+        </div>
+
+        <p style="margin-top:24px;color:var(--ink-soft);font-size:14.5px;line-height:1.55"><b>Streets to walk:</b> Alvear, Arroyo, Juncal between Ayacucho and Junín. First-class French architecture, embassies, mansions, wrought iron. Avenida Alvear is one of the most elegant streets in South America. Look up.</p>
+      </div>
+
+      <!-- ===== CHACARITA ===== -->
+      <div class="nhood" data-nh="chacarita">
+        <h3>Chacarita</h3>
+        <p class="nintro">The neighborhood nobody tells you about — but creative porteños adopted in the last few years. It doesn't have Palermo's polish or San Telmo's monumental history. It has something better: <b>authenticity in process</b>. Galleries in old warehouses, artist studios with open doors, cafés that don't need followers to survive.</p>
+        <span class="getting">From Palermo · <b>Uber 8–10 min · ~ $2 USD · or 15–20 min walk</b></span>
+
+        <div class="spots">
+
+          <article class="spot reveal">
+            <span class="kind">Contemporary art</span>
+            <h4>Fundación Cazadores</h4>
+            <span class="addr">Av. Del Campo 1452</span>
+            <span class="hrs"><span class="dot"></span>Sat · Sun depends on show</span>
+            <p>Contemporary art space in an enormous warehouse. Strong shows, well-curated, Argentine and Latin American artists. Sometimes performances, film cycles, events. The reconverted industrial building is part of the experience. Free.</p>
+          </article>
+
+          <article class="spot reveal">
+            <span class="kind">Top-tier gallery</span>
+            <h4>Ruth Benzacar Galería</h4>
+            <span class="addr">Loyola 32 / Juan B. Justo 7702</span>
+            <span class="hrs"><span class="dot"></span>Sat · Sundays generally closed</span>
+            <p>The most important contemporary art gallery in Argentina. It moved from elegant Plaza San Martín to a warehouse in Chacarita — and that move tells you everything about where the scene is going. Represents artists like Leandro Erlich and Tomás Saraceno. If you're in town on a Saturday, don't miss it.</p>
+          </article>
+
+          <article class="spot reveal">
+            <span class="kind">Art + community</span>
+            <h4>Oihoy — Espacio para la Regeneración</h4>
+            <span class="addr">Loyola 770</span>
+            <span class="hrs"><span class="dot"></span>Check schedule</span>
+            <p>An art-meets-community project that runs out of a house. Workshops, shows, events. The kind of space that only exists in Buenos Aires and that helps you understand the cultural scene from the inside.</p>
+          </article>
+
+          <article class="spot reveal">
+            <span class="kind">Wander zone</span>
+            <h4>Dorrego &amp; Jorge Newbery</h4>
+            <span class="addr">Several blocks · Chacarita</span>
+            <span class="hrs"><span class="dot"></span>Best Saturday afternoon</span>
+            <p>Small galleries, nameless cafés that are actually great, independent design shops, natural-wine bars — all mixed with old greengrocers and corner stores. Nothing built for tourists. The real city living alongside the new one.</p>
+          </article>
+
+        </div>
+      </div>
+
+      <!-- ===== VILLA CRESPO ===== -->
+      <div class="nhood" data-nh="villacrespo">
+        <h3>Villa Crespo</h3>
+        <p class="nintro">Palermo's neighbor that refuses to be Palermo. Jewish-immigrant heritage, tango lineage (Pugliese was born here), cobblestone streets, lifelong bodegones, leather outlets on Murillo street, and a growing wave of galleries, cafés and bars that landed here when Palermo rents got impossible.</p>
+        <span class="getting">From Palermo · <b>10–15 min walk · or Uber 5 min · ~ $1–2 USD</b></span>
+
+        <div class="spots">
+
+          <article class="spot reveal">
+            <span class="kind">Used bookstore</span>
+            <h4>Aristipo Libros</h4>
+            <span class="addr">Serrano 1394</span>
+            <span class="hrs"><span class="dot"></span>Sat 10:30–19:30 · Sun 14:30–19:30</span>
+            <p>Used-book shop specialized in literature, philosophy and social sciences. Owner Patricio Rago has spent 13 years rescuing books from fairs, warehouses, and the Corrientes street shops. A bookseller of the old school: he recommends, he talks, he forms readers. Small space, every shelf curated.</p>
+          </article>
+
+          <article class="spot reveal">
+            <span class="kind">Indie bookstore · Villa Crespo border</span>
+            <h4>Librería Verne</h4>
+            <span class="addr">Loyola 565</span>
+            <span class="hrs"><span class="dot"></span>Sat 11–20 · Sun check</span>
+            <p>Founded by cultural journalist Maximiliano Tomas. Sharp catalogue: Argentine and foreign fiction, essay, poetry. The recommendation table rotates and always surprises. Neighborhood energy with first-rate editorial criteria. About 10–12 minutes by car from Palermo Soho, or 25 walking if you want the air.</p>
+          </article>
+
+          <article class="spot reveal">
+            <span class="kind">Leather shopping</span>
+            <h4>Calle Murillo</h4>
+            <span class="addr">Between Scalabrini Ortiz and Malabia</span>
+            <span class="hrs"><span class="dot"></span>Mostly Mon–Sat</span>
+            <p>The leather outlets street. Not glamorous, but if you want a real Argentine leather jacket at a real price, this is where porteños actually shop. Factories with public showrooms — not tourist boutiques.</p>
+          </article>
+
+          <article class="spot reveal">
+            <span class="kind">Neighborhood vibe</span>
+            <h4>Thames &amp; Gorriti (VC side)</h4>
+            <span class="addr">Don't confuse with Palermo blocks</span>
+            <span class="hrs"><span class="dot"></span>Anytime</span>
+            <p>New cafés, emerging galleries, and that energy of a neighborhood mutating without losing what it was.</p>
+          </article>
+
+        </div>
+      </div>
+
+      <!-- ===== COLEGIALES ===== -->
+      <div class="nhood" data-nh="colegiales">
+        <h3>Colegiales</h3>
+        <p class="nintro">The best-kept secret on this list. Just north of Palermo Hollywood, across the train tracks. Quieter than its famous neighbors, full of low houses, tree-lined streets, and the occasional architectural gem.</p>
+        <span class="getting">From Palermo · <b>10–15 min walk from Palermo Hollywood · or Uber 5 min</b></span>
+
+        <div class="spots">
+
+          <article class="spot reveal">
+            <span class="kind">Hidden architecture</span>
+            <h4>Pasaje General Paz</h4>
+            <span class="addr">Zapata 552 / Ciudad de la Paz 561</span>
+            <span class="hrs"><span class="dot"></span>Always (residential street) · best by day</span>
+            <p>A 1925 passage that preserves the spirit of the early-immigration collective housing: three floors of apartments around an inner courtyard with plants, iron bridges, checkered tiles, and the feel of another century. You can glimpse the charm from outside. If a neighbor lets you peek into the interior patio, it's a small time-travel. Not a tourist attraction — people live here. Look with care.</p>
+          </article>
+
+          <article class="spot reveal">
+            <span class="kind">Indie bookstore</span>
+            <h4>Céspedes Libros</h4>
+            <span class="addr">Álvarez Thomas 853</span>
+            <span class="hrs"><span class="dot"></span>Sat · Sun check</span>
+            <p>Independent bookstore with thoughtful curation and cultural events. Worth a stop if you're in the neighborhood.</p>
+          </article>
+
+        </div>
+      </div>
+
+      <!-- ===== BELGRANO R ===== -->
+      <div class="nhood" data-nh="belgrano">
+        <h3>Belgrano R</h3>
+        <p class="nintro">Very few tourists make it here. Belgrano R (the "R" is for the Belgrano R train station) is a micro-neighborhood of curving streets — rare in BA's grid city — low houses with gardens, tree-lined boulevards, and a calm that doesn't feel like Buenos Aires at all. Like an English village grafted onto the city.</p>
+        <span class="getting">From Palermo · <b>Uber 10–12 min · ~ $2–3 USD</b></span>
+
+        <div class="spots">
+
+          <article class="spot reveal">
+            <span class="kind">Pure walking</span>
+            <h4>Melián · La Pampa · Echeverría</h4>
+            <span class="addr">The curving streets of Belgrano R</span>
+            <span class="hrs"><span class="dot"></span>Anytime · daylight ideal</span>
+            <p>Wander these for half an hour. Low houses with gardens, gentle curves, mature trees. Take photos — this side of Buenos Aires almost no visitor sees.</p>
+          </article>
+
+          <article class="spot reveal">
+            <span class="kind">Indie bookstore</span>
+            <h4>Mandolina Libros</h4>
+            <span class="addr">Manuel Ugarte 2439</span>
+            <span class="hrs"><span class="dot"></span>Sat · Sun check</span>
+            <p>An indie that works with small Argentine publishers in an almost artisanal way. Reading cycles, workshops, live music. Real reading community, no posturing. Good enough that in 2025 they opened a sister store in Madrid.</p>
+          </article>
+
+        </div>
+      </div>
+
+    </div>
+
+    <!-- ====== ITINERARIES ====== -->
+    <div class="itins">
+      <div class="itins-head">
+        <div class="eyebrow" style="color:var(--moss)">— Build your day</div>
+        <h2 style="margin-top:14px;font-style:italic">Four Sunday <em style="color:var(--terra);font-style:normal">routes</em>.</h2>
+        <p class="lead" style="margin-top:14px">Pick one. Each one is the right amount of walking, eating, and looking up for a single Sunday afternoon. Don't try to do them all.</p>
+      </div>
+
+      <div class="itin-cards">
+
+        <article class="itin reveal">
+          <span class="num">01</span>
+          <span class="duration">≈ 3–4 hours · all walking</span>
+          <h4>Books, gardens &amp; coffee</h4>
+          <p style="color:var(--ink-soft);font-size:14px;margin:0">All in Palermo. Start around 9:30 am.</p>
+          <ol>
+            <li>Walk into the <b>Jardín Botánico</b>. Find the Art Nouveau greenhouse, the hidden sculptures, the cats. 30–40 min.</li>
+            <li>Cross into the <b>Bosques de Palermo / Rosedal</b>. Slow walk by the lake. 40 min.</li>
+            <li>Walk 15 min through tree-lined streets to <b>LAB Café</b>. Order a pour-over.</li>
+            <li>10 min walk to <b>Libros del Pasaje</b>. Half an hour in the shelves.</li>
+            <li>5 min to <b>Eterna Cadencia</b>. Patio at the back. (If hungry: <b>L'Harmonie</b>, 3 blocks.)</li>
+          </ol>
+          <div class="total">Total: 3–4 hours. Everything close. Everything on foot.</div>
+        </article>
+
+        <article class="itin reveal">
+          <span class="num">02</span>
+          <span class="duration">≈ 3 hours · Uber + walking</span>
+          <h4>San Telmo, deeper</h4>
+          <p style="color:var(--ink-soft);font-size:14px;margin:0">Beat the fair crowds. Be there by 10 am.</p>
+          <ol>
+            <li>Uber from Palermo to <b>Defensa &amp; San Juan</b>. 15 min, ~$3 USD.</li>
+            <li>Walk Defensa north. Look at the façades. Enter the <b>Mercado de San Telmo</b>, café inside.</li>
+            <li>Continue on Bolívar to <b>Cassa Lepage (Pasaje Belgrano)</b>. Up to the rooftop.</li>
+            <li>Back to Defensa for <b>Pasaje de la Defensa</b>. Interior architecture.</li>
+            <li>Wander Carlos Calvo, Estados Unidos, Humberto Primo. Stop at <b>Walrus Books</b> if you read English.</li>
+            <li>Uber back to Palermo.</li>
+          </ol>
+          <div class="total">Total: 3 hours. The original city, before Palermo was anything.</div>
+        </article>
+
+        <article class="itin reveal">
+          <span class="num">03</span>
+          <span class="duration">≈ 3 hours · walk or Uber</span>
+          <h4>Recoleta elegance + a hidden museum</h4>
+          <p style="color:var(--ink-soft);font-size:14px;margin:0">For the architecture obsessed.</p>
+          <ol>
+            <li>Uber to <b>Museo Nacional de Bellas Artes</b>. 10 min, ~$2 USD. Or walk it — gorgeous 25–30 min route via Av. Las Heras.</li>
+            <li>Tour the museum at your own pace. 1–1.5 hours. Free.</li>
+            <li>Exit through the back. <b>Floralis Genérica</b> + Faculty of Law.</li>
+            <li>Walk 15 min to <b>Palacio Noel</b>. The gardens are the point. 30 min.</li>
+            <li>Walk Arroyo &amp; Av. Alvear. Then end at <b>Plaza Francia</b> + Recoleta Cultural Center.</li>
+          </ol>
+          <div class="total">Total: 3 hours. The most elegant slice of South America.</div>
+        </article>
+
+        <article class="itin reveal">
+          <span class="num">04</span>
+          <span class="duration">≈ 2 hours · Saturday best</span>
+          <h4>Creative Chacarita</h4>
+          <p style="color:var(--ink-soft);font-size:14px;margin:0">Better on a Saturday — many galleries close Sundays.</p>
+          <ol>
+            <li>Uber to <b>Fundación Cazadores</b>. 8 min, ~$2 USD.</li>
+            <li>See the show. Step back outside.</li>
+            <li>Walk Loyola, Dorrego, Jorge Newbery. Open studios, graffiti, no-name cafés that are great.</li>
+            <li>If open, stop at <b>Librería Verne</b> (Loyola 565).</li>
+            <li>Let the neighborhood show you what it has. Don't search for anything.</li>
+          </ol>
+          <div class="total">Total: 2 hours. Find what's next, before it's known.</div>
+        </article>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ============ TIPS ============ -->
+<section class="tips-section" id="tips">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <div class="eyebrow">Local wisdom</div>
+        <h2 style="margin-top:14px">Things a <em style="color:var(--terra);font-style:italic">local</em> would tell you.</h2>
+      </div>
+      <p class="lead">A few things that don't fit anywhere else — but that will make your week noticeably better.</p>
+    </div>
+
+    <div class="tips-grid">
+      <div class="tip reveal">
+        <span class="icon">⤴</span>
+        <h4>Look up.</h4>
+        <p>The architecture in this city is extraordinarily varied — Art Nouveau, Art Déco, brutalist, neoclassical, all mixed on the same block. Almost no one notices. You can.</p>
+      </div>
+      <div class="tip reveal">
+        <span class="icon">◷</span>
+        <h4>Argentines eat late.</h4>
+        <p>Restaurants don't fill before 9pm. Cafés are at their best mid-morning (10–11) or merienda (5–6). Sundays open slowly — don't expect activity before 10am.</p>
+      </div>
+      <div class="tip reveal">
+        <span class="icon">$</span>
+        <h4>Spend well, not little.</h4>
+        <p>For travelers with dollars, almost everything is cheap. A great coffee under $2 USD, a cross-town Uber for $3–5. Use that to spend <b>better</b>: buy a book, order two cortados, tip generously.</p>
+      </div>
+      <div class="tip reveal">
+        <span class="icon">⚲</span>
+        <h4>Walk Palermo.</h4>
+        <p>Palermo Soho, Palermo Hollywood, Palermo Chico — different sub-zones, all walkable. For other neighborhoods, a 5–15 minute Uber drops you in a different world.</p>
+      </div>
+      <div class="tip reveal">
+        <span class="icon">⊙</span>
+        <h4>The slow Sunday is the point.</h4>
+        <p>Porteños take Sundays seriously: it's a day for walking, eating well, doing nothing productive. Don't pack 10 things in — do 3 or 4, well, with pauses.</p>
+      </div>
+      <div class="tip reveal">
+        <span class="icon">⚠</span>
+        <h4>Common sense.</h4>
+        <p>Palermo, Recoleta, San Telmo (by day), Chacarita (by day), Villa Crespo, Colegiales, Belgrano — all safe to walk. Be discreet with valuables and your phone, carry a passport copy, leave the original at the hotel.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT FOOTER ============ -->
+<footer class="footer" id="help">
+  <span class="halo-dashed" style="top:60px;left:48px;border-color:rgba(237,62,19,.55);width:64px;height:64px" aria-hidden="true"></span>
+  <div class="wrap foot-inner">
+    <div>
+      <div class="eyebrow" style="color:var(--amber)">Need anything?</div>
+      <h2 style="margin-top:14px">Vicky Ciabattini is your <em>fixer</em> all week.</h2>
+      <p>Forgot something at the venue? Need a restaurant recommendation? Want a different kind of coffee experience? Lost on the way to the Tuesday dinner? Reach out. That's literally what I'm here for.</p>
+      <div class="signature">
+        <span>On-site contact in Buenos Aires</span>
+        <span class="name">Vicky Ciabattini</span>
+        <span class="role">Event Coordinator · Halo Media</span>
+      </div>
+    </div>
+
+    <aside class="foot-meta">
+      <dl>
+        <dt>Venue</dt><dd>Working &amp; Co Soler<br>Soler 4445, Palermo</dd>
+        <dt>WiFi</dt><dd>somosworking</dd>
+        <dt>Hotels</dt><dd>Hotel Clásico Palermo<br>Be Hollywood Palermo</dd>
+        <dt>Tue dinner</dt><dd>Andante · Arévalo 1677 · 20:30</dd>
+        <dt>Wed dinner</dt><dd>Bodegón Hierro · Fitz Roy 1722 · 20:30</dd>
+        <dt>Material req.</dt><dd>At least 1 day in advance</dd>
+      </dl>
+    </aside>
+  </div>
+
+  <div class="wrap foot-bottom">
+    <span>AI Transformation Summit 2026 · Halo Media</span>
+    <span>Hecho con ❤️ en Buenos Aires</span>
+  </div>
+</footer>
+
+<script>
+  // ============ NAV TOGGLE ============
+  const menuBtn = document.getElementById('menuBtn');
+  const navLinks = document.getElementById('navLinks');
+  menuBtn?.addEventListener('click', () => {
+    navLinks.classList.toggle('open');
+  });
+  document.querySelectorAll('.nav-links a').forEach(a => {
+    a.addEventListener('click', () => navLinks.classList.remove('open'));
+  });
+
+  // ============ NEIGHBORHOOD TABS ============
+  const tabs = document.querySelectorAll('.nbar button');
+  const panels = document.querySelectorAll('.nhood');
+  tabs.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const target = btn.dataset.nh;
+      tabs.forEach(b => b.classList.toggle('active', b === btn));
+      panels.forEach(p => p.classList.toggle('active', p.dataset.nh === target));
+      // smooth scroll the bar a bit so people see the change
+      btn.scrollIntoView({behavior:'smooth', block:'nearest', inline:'center'});
+    });
+  });
+
+  // ============ REVEAL ON SCROLL ============
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        e.target.classList.add('in');
+        io.unobserve(e.target);
+      }
+    });
+  }, {threshold: 0.12, rootMargin: '0px 0px -40px 0px'});
+  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+</script>
+
+</body>
+</html>
